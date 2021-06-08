@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        "use strict";
+        let num = 10 + 10 + "10"; // Тут "10" идет как String, произойдёт склеивание.Ответ 2010.
+        console.log(num);
+
+        let num2 = 10 + "10" + 10; //Думаю тут "10" находится в центре, произойдёт склеивание слева так и справа. Ответ 101010.
+        console.log(num2);
+
+        let num3 = 10 + 10 + +"10"; // Я думаю ответ будет 30, так как оператор + перед "10" делает из строчного элемента числовой и просиходит складывание.
+        console.log(num3);
+
+        let num4 = 10 / -""; // Ответ будет отрецательной бесконечностью. Унарный минус перед пустыми ковычками.
+        console.log(num4);
+
+        let num5 = 10 / +"2.5"; // Ответ 4. Вместо запятой тут должна быть точка!
+        console.log(num5);
+
+    </script>
+
+</body>
+
+</html>

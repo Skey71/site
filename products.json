@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "title": "1ELLERY X M'O CAPSULE",
+        "price": 52.39,
+        "img": "images/featured/1.jpg"
+    },
+    {
+        "id": "2",
+        "title": "2ELLERY X M'O CAPSULE",
+        "price": 76.95,
+        "img": "images/featured/2.jpg"
+    },
+    {
+        "id": "3",
+        "title": "3ELLERY X M'O CAPSULE",
+        "price": 24.68,
+        "img": "images/featured/3.jpg"
+    },
+    {
+        "id": "4",
+        "title": "4ELLERY X M'O CAPSULE",
+        "price": 41.33,
+        "img": "images/featured/4.jpg"
+    },
+    {
+        "id": "5",
+        "title": "5ELLERY X M'O CAPSULE",
+        "price": 24.12,
+        "img": "images/featured/5.jpg"
+    }
+]
